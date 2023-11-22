@@ -1,5 +1,5 @@
 import { React, useRef } from "react";
-import htmlToImage from "html-to-image";
+import * as htmlToImage from "html-to-image";
 import { useLoaderData } from "react-router-dom";
 import PropTypes from "prop-types";
 import {
